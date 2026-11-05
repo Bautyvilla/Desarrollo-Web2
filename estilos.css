@@ -1,0 +1,117 @@
+body {
+  background-color: yellow;
+  font-family: Arial;
+  margin: 20px;
+}
+
+.mi-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #800000;
+  padding: 15px;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+.logo-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid yellow;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 220%;
+  margin: 0;
+}
+
+h2 {
+  color: #b22222;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+li, p {
+  color: blue;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 110%;
+}
+
+.just {
+  text-align: justify;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #b22222;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.contenido-receta {
+  flex: 2;
+  min-width: 300px;
+  background: #fffdf0;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #800000;
+}
+
+.barra-lateral {
+  flex: 1;
+  min-width: 280px;
+  background: #fffdf0;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #800000;
+}
+
+.mi-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #333333;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.footer-mapa, .footer-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.footer-mapa h3, .footer-info h3 {
+  color: yellow;
+  text-decoration: underline;
+  margin-top: 0;
+}
